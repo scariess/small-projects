@@ -1,4 +1,4 @@
-# small-projects
+# ˚₊ Small-Projects ₊˚⊹♡
 experimenting + learning, will fill this repo with my mini projects :3
 
 # 🐢 Ninja Turtles Passcode System
@@ -27,7 +27,7 @@ pip install pillow opencv-python
 # 🍕 Hint 🍕
 Pizza lol
 
-# Gameplay-Walkthrough
+# ☢️ Gameplay-Walkthrough
 
 https://github.com/user-attachments/assets/01c2c631-232e-4f65-ad89-a881b14755fd
 >
