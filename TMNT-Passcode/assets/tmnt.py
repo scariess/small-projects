@@ -1,11 +1,7 @@
-import tkinter
 import tkinter as tk
-from tabnanny import check
 
 from PIL import Image, ImageTk
 import cv2
-from PIL.ImageShow import show
-from numpy.ma.core import size
 
 root = tk.Tk()
 
