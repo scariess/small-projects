@@ -27,8 +27,8 @@ pip install pillow opencv-python
 # 🍕 Hint 🍕
 Pizza lol
 
-# ☢️ Gameplay-Walkthrough
+# ☢️ Demo
 
 https://github.com/user-attachments/assets/01c2c631-232e-4f65-ad89-a881b14755fd
 >
-
+Enter the correct code… and never pay full price for late pizza ( •̀⤙•́ )
