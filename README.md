@@ -4,7 +4,7 @@ experimenting + learning, will fill this repo with my mini projects :3
 # 🐢 Ninja Turtles Passcode System
 A simple GUI-based keypad system built with Python using Tkinter
 
-# ♡ Features
+# 🥷 Features
 - A rad keypad
 - Passcode input system
 - Delete button functionality
@@ -12,16 +12,20 @@ A simple GUI-based keypad system built with Python using Tkinter
 - Animated background
 - PIZZAAAA!!!! 🍕
 
-# ୨୧  What I learned
+# ⚔️ What I learned
 - How to import mp4, and use them as bg for my UI :'
 - Making buttons and their def
 - Managing state and user input
-- DEBUGGGINHGGG
+- DEBUGGGINGGG
 
-# ➤ How to run
+# 🐀 How to run
 python tmnt.py
 
 # ⚠︎ Requirements
 pip install pillow opencv-python
 
+# 🍕 Hint 🍕
+Pizza lol
+
 # Gameplay-Walkthrough
+
