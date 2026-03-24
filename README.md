@@ -28,4 +28,5 @@ pip install pillow opencv-python
 Pizza lol
 
 # Gameplay-Walkthrough
+<video src="TMNT_DEMO.mp4" controls width="400"></video>
 
