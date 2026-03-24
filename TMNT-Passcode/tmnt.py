@@ -19,7 +19,7 @@ root.title('TMNT')
 root.geometry("540x720")
 root.resizable(width=False, height=False)
 
-cap = cv2.VideoCapture("sewer.mp4")
+cap = cv2.VideoCapture("assets/sewer.mp4")
 
 bg_label = tk.Label(root)
 bg_label.place(x=0, y=0, relwidth=1, relheight=1)
@@ -36,7 +36,7 @@ def update_video():
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         elif mode == "unlocked":
             cap.release()
-            cap = cv2.VideoCapture("unlocked.mp4")
+            cap = cv2.VideoCapture("assets/unlocked.mp4")
             mode = "unlocked"
         elif mode == "unlocked":
             cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
@@ -72,7 +72,7 @@ def check_password():
         display.configure(text="Turtle Power!")
 
         cap.release()
-        cap = cv2.VideoCapture("open2.mp4")
+        cap = cv2.VideoCapture("assets/open2.mp4")
         mode = "unlocked"
 
 
@@ -122,7 +122,7 @@ def blink_cursor():
 
     root.after(500, blink_cursor)
 
-img = Image.open("button.png")
+img = Image.open("assets/button.png")
 img = img.resize((40,70))
 
 button_img = ImageTk.PhotoImage(img)
@@ -132,17 +132,17 @@ button_label.place(x=422, y=252)
 
 keypad_popup = tk.Frame(root, bg="black", width=300, height=420, relief="flat")
 
-pad = Image.open("pad.png")
+pad = Image.open("assets/pad.png")
 pad = pad.resize((300,420))
 
 pad_img = ImageTk.PhotoImage(pad)
 pad_label = tk.Label(keypad_popup, image=pad_img, bd=0, highlightthickness=0)
 pad_label.place(x=0, y=0)
 
-keys = Image.open("pad key.png")
+keys = Image.open("assets/pad key.png")
 keys_img = ImageTk.PhotoImage(keys)
 
-red = Image.open("red.png")
+red = Image.open("assets/red.png")
 red_img = ImageTk.PhotoImage(red)
 
 display = tk.Label(
